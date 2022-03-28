@@ -1,12 +1,12 @@
-
+import { actionsTypes } from "../constantes/fruta";
 
 const actions = {
     adicionar: fruta => ({
-        type: 'ADICIOANAR_FRUTA',
+        type: actionsTypes.ADICIONAR_FRUTA,
         payload: fruta
     }),
     remover: fruta => ({
-        type: 'REMOVER_FRUTA',
+        type: actionsTypes.REMOVER_FRUTA,
         payload: fruta,
     }),
 };
